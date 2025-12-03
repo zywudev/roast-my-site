@@ -10,6 +10,11 @@
 !.yarn/releases
 !.yarn/versions
 
+# 忽略 Puppeteer 下载的浏览器缓存
+.cache/
+.local-chromium/
+.puppeteer/
+
 # testing
 /coverage
 
